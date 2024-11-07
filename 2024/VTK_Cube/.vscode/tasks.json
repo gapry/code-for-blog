@@ -1,0 +1,50 @@
+{
+  "version": "2.0.0",
+    "tasks": [
+    {
+      "label": "Default",
+      "type": "shell",
+      "command": "make default",
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      },
+    },
+    {
+      "label": "Format",
+      "type": "shell",
+      "command": "make fmt",
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      }
+    },
+    {
+      "label": "Clean",
+      "type": "shell",
+      "command": "make clean",
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      }
+    },
+    {
+      "label": "Compile",
+      "type": "shell",
+      "command": "make compile",
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      },
+    },
+    {
+      "label": "Execute",
+      "type": "shell",
+      "command": "make execute",
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      },
+    },
+  ]
+}
