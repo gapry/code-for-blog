@@ -11,7 +11,7 @@ clean:
 	rm -rf build
 
 compile: clean 
-	mkdir build; cd build; cmake -Df3d_DIR:PATH=~/Workspaces/f3d/build/cmake ..; make
+	mkdir build; cd build; cmake -Df3d_DIR:PATH=~/Workspaces/f3d/install/lib/cmake/f3d ..; make
 
 execute:
 	./build/RenderImage.out
